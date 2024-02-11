@@ -141,7 +141,6 @@ const WeatherApp = () => {
 
     return (
         <div className="weather-app">
-            {/* Add JSX for rendering the Weather App */}
             <h1>Weather App</h1>
             <div className='info'>
                 <input
@@ -165,7 +164,7 @@ const WeatherApp = () => {
                     </div>
                 )}
 
-                {showRecentSearches && ( // Only render recent searches if showRecentSearches is true
+                {showRecentSearches && (
                     <div className="recent-searches">
                         <h2>Recent Searches</h2>
                         <table>
