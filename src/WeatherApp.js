@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Chart from 'chart.js/auto';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const WeatherApp = () => {
     const [city, setCity] = useState('');
@@ -13,7 +16,7 @@ const WeatherApp = () => {
     const [hoveredState, setHoveredState] = useState(null);
     const [cityChart, setCityChart] = useState(null);
 
-    const API_KEY = '9452de772f131926d437b5f98927c086'; 
+    const API_KEY = process.env.APIKEY; 
 
     useEffect(() => {
         const fetchStateWeatherData = async () => {
