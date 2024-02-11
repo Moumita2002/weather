@@ -8,12 +8,12 @@ const WeatherApp = () => {
     const [error, setError] = useState(null);
     const [unit, setUnit] = useState('metric'); // Default unit is Celsius
     const [recentSearches, setRecentSearches] = useState([]);
-    const [showRecentSearches, setShowRecentSearches] = useState(false); // State to show/hide recent searches
+    const [showRecentSearches, setShowRecentSearches] = useState(false); 
     const [stateWeatherData, setStateWeatherData] = useState([]);
     const [hoveredState, setHoveredState] = useState(null);
     const [cityChart, setCityChart] = useState(null);
 
-    const API_KEY = '9452de772f131926d437b5f98927c086'; // Replace 'your_api_key_here' with your actual API key
+    const API_KEY = '9452de772f131926d437b5f98927c086'; 
 
     useEffect(() => {
         const fetchStateWeatherData = async () => {
