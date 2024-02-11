@@ -190,7 +190,6 @@ body {
   background-color: white;
 }
 
-/* Media query for screens between 600px and 900px */
 @media (max-width: 600px) {
   .weather-app .details {
     flex-direction: column;
