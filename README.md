@@ -1,3 +1,23 @@
+# About
+This is a React.js-based weather web application which provides the users with a user-friendly interface to access detailed weather reports for specific locations. 
+
+Includes Features like:
+- Error handling
+- Temperature conversion
+- Recent searches section
+- Interactive charts
+
+With these features, users can easily stay informed about weather conditions. With cross-device compatibility, intuitive design, and visual insights into temperature trends, the weather web application offers a seamless and personalized experience for users to make informed decisions based on real-time weather data.
+
+# Overview - Weather 
+
+As you can see, the user can easily search about the weather Report for a specific place. They can see their search history in recent searches. I have added animations in the background to make it more impressive. Also, there's a chart which will be displayed while hovering.
+![image](https://github.com/Moumita2002/weather/assets/102172188/bb1cb192-ef11-456c-92de-582370383e24)
+
+This is the mobile view
+![image](https://github.com/Moumita2002/weather/assets/102172188/2b0f3226-60fa-49bf-b552-48337c3835c3)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
